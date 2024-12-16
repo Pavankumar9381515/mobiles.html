@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+ img {
+  background: red;
+  transition: width 2s;}
+ img:hover {
+  width: 500px;}
+</style>
+</head>
+ <body>
+  <h1>The transition Property</h1>
+      <imgsrc="https://wallpaperaccess.com/full/393735.jpg" width="100" height="100">
+   <p>Hover over the img element, to see the transition effect</p>
+</body>
+</html>

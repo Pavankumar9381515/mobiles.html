@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8"/>
+  
+  <meta name="Description" content="">
+  <title>Document</title>
+ </head>
+ <body>
+#main{
+  background:#f532f3;
+  padding-bottom:20px;
+}
+#heading{
+  color:#212121;
+  font-size:150%;
+  padding:5px 15px ;
+}
+#flex-box{
+  display:flex; /* row */
+  flex-direction:row; /*column, column-reverse, row-reverse */
+  flex-wrap:no-wrap;	/* nowrap */
+  /* gap:40px; */
+  justify-contenthttps://m.media-amazon.com/images/I/51kH6DymEAL._SX300_SY300_QL70_FMwebp_.jpg:space-around;  /*space-evenly, space-between*/
+  /*	bt => space/n-1
+	ard => space/n (1/2, 1/2)
+	even => space/n+1	*/
+}
+#flex-box > div{
+   background:#f8f8ff;	
+   width:240px;
+   height:auto;
+   padding:5px;
+   border-radius:10px;
+}
+#flex-box img{
+  width:60%;	
+  height:180px;
+}
+	/* last-child, nth-child(pos) */
+#flex-box > div > div:first-child{
+  text-align:center;
+  margin-bottom:15px;
+}
+
+#flex-box span{
+  background:#d00;
+  color:#ddd;
+  padding:5px;
+  font-weight:bold;
+}
+#flex-box > div > div:nth-child(2){
+  color:#d00;
+}
+
+#flex-box h4{
+  display:inline-block;
+}
+
+#flex-box > div > div:last-child{
+  font-size:120%;
+  font-weight:bold;
+}
+
+#flex-box>div:hover{
+  transform:scale(0.05); 
+		/* scaleX(1.1) or scaleY(1.1) */
+  box-shadow:0 0 20px black;	
+}
+
+ </body>
+</html>

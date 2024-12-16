@@ -1,0 +1,30 @@
+<!-- text spaces -->
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+	p{ font-size:20px; 
+	margin-left:80%;
+
+	color:hotpink;}
+	.p1{ letter-spacing: 5px; color:red; }
+	.p2{ letter-spacing: -1px; color:green;}
+	.p3{ word-spacing: 10px; }
+	.p4{ line-height: 0px; }
+	.p5{ text-decoration: line-through; }  
+	.p6{text-transform:uppercase;
+     
+      }   
+	.p7{ text-align: center; }
+</style>
+</head>
+<body>
+<p class="p1">This  </p>
+<p class="p2">This line Demonstrate letter spacing -ve value</p>
+<p class="p3">This line Demonstrate word spacing </p>
+<p class="p4">This line Demonstrate line height </p>
+<p class="p5">This line Demonstrate text-decoration </p>
+<p class="p6">This line Demonstrate text-transform </p>
+<p class="p7">This line Demonstrate text-align </p>
+</body>
+</html>

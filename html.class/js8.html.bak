@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  </head>
+ <body>
+
+ <h3>demo on  js Var , let, const</h3>
+ <script>
+       var a; // variable declaration 
+       document.writeln(a);
+       var b=200; //variable intialization 
+       document.writeln(b);
+ 
+	let x; //variable declaration
+	x=111;
+	document.writeln(x);
+
+	let y=222;	//variable initialization
+	document.writeln(y);
+	
+	a=1010; //modify
+	y=2020; //modify
+	document.writeln(a);
+	document.writeln(y);
+	
+	//const x;  error
+	const PI=3.14;
+	document.writeln(PI);	
+	const PI=1.6;
+	document.writeln(PI);
+	//PI=1.6;  error
+ </script>
+
+
+  
+ </body>
+</html>

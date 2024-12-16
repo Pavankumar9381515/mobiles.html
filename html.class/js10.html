@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+
+ <body>
+ <!-- example on JS variables -->
+<h3>demo on re-defination & var hoisting</h3>
+<script>
+  var n=100;
+  document.write(n,'<br>');
+  
+  var n="javascript"; //re-defination
+  //let n="javascript";	not sup
+  document.write(n,'<br>');  
+  
+  var n=true;	//re-defination
+  document.write(n,'<br>'); 
+
+  x=100;
+  document.write(x,'<br>');
+  document.write(x>0,'<br>');
+  var x; //var hoisting
+  //let x;  not sup
+  y="react";
+  document.write(y,'<br>');  
+  var y; //y var is hoisted 
+</script>
+  
+ </body>
+</html>

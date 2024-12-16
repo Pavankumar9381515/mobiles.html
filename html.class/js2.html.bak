@@ -1,0 +1,11 @@
+<!-- example on JS implementations -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+  </head>
+  <body>
+  <button onclick="alert('button1 cilcked')">cliked 1 here</button>
+   <button onclick="alert('button2 cilcked')">cliked 2 here</button>
+  </body>
+</html>

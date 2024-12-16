@@ -1,0 +1,36 @@
+18-10-2024 07:35 PM:INFO:A new request came
+18-10-2024 07:35 PM:ERROR:invalid literal for int() with base 10: 'pavan'
+Traceback (most recent call last):
+  File "C:/“demo.html”/html.class/pavan.py", line 10, in <module>
+    x = int(input('Enter First Number:'))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'pavan'
+18-10-2024 07:35 PM:INFO:Request processing completed
+18-10-2024 07:36 PM:INFO:A new request came
+18-10-2024 07:36 PM:INFO:Request processing completed
+18-10-2024 07:36 PM:INFO:A new request came
+18-10-2024 07:36 PM:INFO:Request processing completed
+18-10-2024 07:36 PM:INFO:A new request came
+18-10-2024 07:36 PM:ERROR:invalid literal for int() with base 10: 'ten'
+Traceback (most recent call last):
+  File "C:/“demo.html”/html.class/pavan.py", line 11, in <module>
+    y = int(input('Enter Second Number:'))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'ten'
+18-10-2024 07:36 PM:INFO:Request processing completed
+18-10-2024 07:37 PM:INFO:A new request came
+18-10-2024 07:37 PM:ERROR:invalid literal for int() with base 10: 'errer'
+Traceback (most recent call last):
+  File "C:/“demo.html”/html.class/pavan.py", line 10, in <module>
+    x = int(input('Enter First Number:'))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'errer'
+18-10-2024 07:37 PM:INFO:Request processing completed
+18-10-2024 07:38 PM:INFO:A new request came
+18-10-2024 07:39 PM:ERROR:invalid literal for int() with base 10: 'ten'
+Traceback (most recent call last):
+  File "C:/“demo.html”/html.class/pavan.py", line 10, in <module>
+    x = int(input('Enter First Number:'))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'ten'
+18-10-2024 07:39 PM:INFO:Request processing completed

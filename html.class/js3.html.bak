@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+   <script src="demo.js"></script> <!linking...!>
+ </head>
+ <body>
+
+ <h2> demo on extrenal javascript </h2>
+  <script >
+   myfunc1(); <!calling1...!>
+    myfunc2();  <!calling2...!>
+  </script >
+  <br>
+  <button onclick="myfunc1()"> calling y func1</buttton>
+ </body>
+</html>

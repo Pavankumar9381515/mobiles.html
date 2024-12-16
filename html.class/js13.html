@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+
+ </head>
+ <body>
+  <!--
+parsing
+=>changing the data from string format to number format
+or number format to string format
+	"10" => 10
+	"20.56" => 20.56
+	10 => "10"
+	20.56 => "20.56"
+
+1. using functions
+  parseInt() =>  string format to integer format
+    Syn:-  window.parseInt(val)
+		"10" ==> 10
+		"20.56" ==> 20
+		"ram" => NaN
+		
+  parseFloat() =>  string format to floating format
+    Syn:-  window.parseFloat(val)
+		"10" ==> 10
+		"20.56" ==> 20.56
+		"ram" => NaN
+
+2. parse operator
+   => + is parse operator
+   => unary ope, it should be used prefix(left)
+   => parsing into integer/floating
+	Syn:	+var   or	+"value"
+		+"10" ==> 10
+		+"20.55" ==> 20.55
+		+"ram" ==> NaN
+		
+types:
+ 1.auto parsing (imp)
+    while use the following operators, js implementing auto parsing. those are:
+		-, *, /, %, **, ++, --
+		
+ 2. manual parsing (exp)
+	 otherthan the above list of operators, we should implement manual parsing
+		+, >, >, <=, >=, ===, != etc...
+-->
+<h3>demo on parsing</h3>
+<script>
+  let x="14", y="9";
+  
+  //auto parsing
+  document.write(x-y, '<br>');
+  document.write(x*y, '<br>');
+  document.write(x%y, '<br>');  
+  document.write(++x, '<br>');
+  document.write(--y, '<br>');
+  
+  //manual parsing
+  let i="18", j="7";
+  //res=i+j;  wrong
+  res=window.parseInt(i)+window.parseInt(j);
+  document.write(res, '<br>');
+  
+  document.write(+i > +j, '<br>');
+  document.write(+i < +j, '<br>');
+</script>
+ </body>
+</html>

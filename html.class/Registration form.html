@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+ <title>REGISTRATION FORM</title>
+  <style> 
+   #main { 
+      width:300px;
+		background:#213A57;
+		color:#80ED99;
+		border-radius:15px;
+		margin:auto;
+		padding:20px;
+		box-shadow:0 0 15px red;
+   
+    }
+   </style>
+  <title>REGISTRATION FORM</title>
+ </head>
+ <body>
+  <div id="main"> 
+    <div align="center" >
+	 <h2> <U> REGISTRATION FORM </U> </h2>
+	 
+	  <form action="registration.html" method="get">
+	  <p>
+	   <label for="phone">CONTACT NUMBER<span> * </span>  </label><br>
+	    <input type="text" id="phone" name="phone"  max="10" > 
+		
+	</p>
+	<P>
+		 <label for="em">ENTER EMAIL ID <span> * </span>  </label><br>
+	    <input type="email" id="em" name="em"  > 
+	</p>
+	<P>
+		  <label for="d">DATE OF BIRTH <span> * </span>  </label><br>
+	    <input type="date" id="d" name="d"  >
+	</p>
+	<P>
+		  <label > GENDER  </label><br>
+	    <input type="radio" id="gen" name="g1" value="m"  >
+		<label>MALE </label>
+		  <input type="radio" id="gen" name="g2" value="f"  >
+		<label>FEMALE</label>
+		  <input type="radio" id="gen" name="g3" value="o"  >
+		<label>OTHERS </label>
+	</p>
+	<p>
+	   <label for="cource">WHICH COURCE?<span> * </span> </label> <br>
+	    <select id="cource" name="cource" > 
+		<option value="" > SELCET COURCE</option>
+		 <option value="C" >C LANGAUGE</option>
+		 
+		 <option value="CPP"> C++ LANGAUGE </option>
+		 <option value="FSP"> FULL STACK PYTHON</option>
+		 <option value="FSJ"> FULL STACK JAVA </option>
+		 <option value="HJC">HTML-JAVASCRIPT-CSS </option>
+		 </select>
+	</P>
+	<p>
+	   <label for="mod">WHICH mode of training you want?<span> * </span> </label> <br>
+	    <select id="mod" name="mod" > 
+		<option value= "" > SELCET MODE OF TRAINING </option>
+		 <option value="ct" >classroom training</option>
+		  <option value="ot"> online training </option>
+		 <option value="pt"> project training</option>
+		 <option value="it"> internship training </option>
+		 <option value="set">spoken engish taining </option>
+		 </select>
+	</P>
+	<P align="center">
+	 <input type="checkbox" id="c" name="c"  >
+		<label > I ACCEPT ALL TERMS& CONDITIONS  </label>
+	</P>
+	<p align="center">
+	 <BUTTON  type="SUBMIT" id="SB" name="SB" > REGISTRATION NOW</BUTTON>
+	 </p>
+ </form>
+  </div>
+ </body>
+</html>

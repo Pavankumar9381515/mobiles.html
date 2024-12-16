@@ -1,0 +1,27 @@
+<!DOCTYPE html
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  
+ </head>
+ <body>
+  <h2> Demo on var & let & const </h2>
+   <script>
+	 var a=100;
+	var b=20.30;
+	let d="H";
+	let c="ram";
+	const E=true;
+	var f;
+	let g=null;
+	document.writeln(a,'=>', typeof a,'<br>');
+	document.writeln(b,'=>', typeof b,'<br>');
+	document.writeln(c,'=>', typeof c,'<br>');
+	document.writeln(d,'=>', typeof d,'<br>');
+	document.writeln(e,'=>', typeof e,'<br>');
+	document.writeln(f,'=>', typeof f,'<br>');
+	document.writeln(g,'=>', typeof g,'<br>');
+</script>
+  
+ </body>
+</html>

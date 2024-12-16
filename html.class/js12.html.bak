@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+
+ </head>
+ <body>
+ <!-- exmaple on js dialogs-->
+ <h3> demo on alert,prompt,confirm box</h3>
+ <script>
+   window.alert("hello world");
+	alert("product of"+15*3); 
+	
+	 let x=window.confirm("do you want to close?");
+	 document.write(x,'<bR>');
+	/*  if(x===true)
+	   run close logic 
+	 else 
+	 nothing to do */
+	  
+	  
+	  
+	
+  let n=window.prompt("enter name");
+	  let a=prompt("enter age","1");
+	  document.write(n,' ' ,a,"year(s) older");
+	  
+	  
+	    let n=prompt("enter text");
+	    let a=prompt("pavan","");
+	  document.write(n," ",a,"years os password");
+
+ </script>
+  
+ </body>
+</html>

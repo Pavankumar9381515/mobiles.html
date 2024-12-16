@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+   <link rel="icon" href="new phones" >
+    <title>Pavan shoping mall</title>
+     <STYLE>
+	  h1{ color:blue;
+	      font-size:25px;
+	     }
+       img{width:170px;
+		  
+		}
+	      
+    .c1{ border:10px 5px ;
+    	color:red;
+		padding:10px;
+	 }
+	mark{ background:red;
+	     color:white;
+		 padding:5px;
+		 border:0;
+		 border-radius:3px;
+	 }
+	 p1{font-size:18px;
+	  padding:10px;
+	 }
+	strong{font-size:20px;
+	   color:
+	 }
+	sup{font-size:10px;
+	 }
+   p{ border:10px;
+	font-size:16px;
+	margin:10px;
+	}
+   spam{ font-size:12px;
+    color:#837B7B;
+    }
+   flex-box div{display-flex;
+         color:red;
+		 background:margin:12px 0 0 10px;}
+
+  </STYLE>
+ </head>
+ <body> 
+ <div style="background:#039;" id="flex.box">
+   <setion id="h1">
+    <h1> blockbuster deals with exchange</h1>
+</section>
+   <section >
+    <img src="https://m.media-amazon.com/images/I/31GmCJTD0GL._SY445_SX342_QL70_FMwebp_.jpg"  >
+	
+	<div class="c1">
+	 <mark>39% off</mark> <strong> Great Indian Festival<strong>
+	 </div>
+   <div class="c2">
+     <p1> <sup>&#8377;</sup><strong>14,000 <strong><sup>00</sup> <spam> M.R.P: <del>&#8377;24,499.00 </del></spam></p1>
+	 </DiV>
+  <div id="c3">
+    <p>Samsung Galaxy M35 5G(Moonlight...)</p></div>
+	</section>
+	
+	
+	
+	 <section id="flex-box">
+     <img src="https://m.media-amazon.com/images/I/41iXRIjYK5L._SX300_SY300_QL70_FMwebp_.jpg"  >
+	
+	<div class="c1">
+	 <mark>39% off</mark> <strong> Great Indian Festival<strong>
+	 </div>
+   <div class="c2">
+     <p1> <sup>&#8377;</sup><strong>14,000 <strong><sup>00</sup> <spam> M.R.P: <del>&#8377;24,499.00 </del></spam></p1>
+	 </DiV>
+  <div id="c3">
+    <p>Samsung Galaxy M35 5G(Moonlight...)</p></div>
+	</section>
+	
+	
+	 <section id="flex-box">
+     <img src="https://images-eu.ssl-images-amazon.com/images/I/71GLMJ7TQiL._AC_UL330_SR330,330_.jpg"  >
+	
+	<div class="c1">
+	 <mark>39% off</mark> <strong> Great Indian Festival<strong>
+	 </div>
+   <div class="c2">
+     <p1> <sup>&#8377;</sup><strong>14,000 <strong><sup>00</sup> <spam> M.R.P: <del>&#8377;24,499.00 </del></spam></p1>
+	 </DiV>
+  <div id="c3">
+    <p>Samsung Galaxy M35 5G(Moonlight...)</p></div>
+	</section>
+	
+	
+	
+	
+	
+	 <section id="flex-box">
+     <img src="https://images-eu.ssl-images-amazon.com/images/I/71GLMJ7TQiL._AC_UL330_SR330,330_.jpg"  >
+	
+	<div class="c1">
+	 <mark>39% off</mark> <strong> Great Indian Festival<strong>
+	 </div>
+   <div class="c2">
+     <p1> <sup>&#8377;</sup><strong>14,000 <strong><sup>00</sup> <spam> M.R.P: <del>&#8377;24,499.00 </del></spam></p1>
+	 </DiV>
+  <div id="c3">
+    <p>Samsung Galaxy M35 5G(Moonlight...)</p></div>
+	</section>
+    
+	
+</div>
+</body>
+</html>

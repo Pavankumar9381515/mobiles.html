@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+
+ </head>
+ <body>
+  <!-- example on js variables -->
+<h3>demo on Loosely Typed & dynamically typed</h3>
+<script>
+   var x;
+   //Loosely Typed
+   x=10.56;	
+     document.writeln(x);
+     y=10;
+document.writeln(y);
+    z="ram" ;
+    document.writeln(z,'<br>'); 
+	p=true ;
+	document.writeln(p,'<br>'); 
+    a=new Date() ;
+	document.writeln(a);
+	v=[11,22,33];
+    document.writeln(v);
+	
+	
+   
+   i=100; //dynamically declared var
+   document.writeln(i);	
+   document.writeln(i*5);
+   j="javascript";	//dynamically declared var
+   document.writeln(window.j); 
+   //window object   
+</script>
+ </body>
+</html>

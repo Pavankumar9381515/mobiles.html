@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  
+ 
+ </head>
+ <body>
+ <h3>demo on string literal & template literal</h3>
+
+     <!--  string literal		                		template literal
+        => " " & ' ' are SL		               	=> ` ` (backtick) is TL 
+        => used to rep string/text             	=> used to rep string/text  
+        => since JS                              => since JS6 (ECMAScript)  
+        => sup 1 line of text		                => sup multiple line of  text    
+        => not sup interpolation	                => sup interpolation---> 
+ <h3>demo on string literal & template literal</h3>
+ <script>
+  document.writeln("Red")
+  document.writeln('Green')  
+  document.writeln(`Blue`) 
+ /* console.log("TypeError:
+	Writeln is not a function.
+	Ex5.html:10:5");	//error
+
+  console.log(`TypeError:
+	Writeln is not a function.
+	Ex5.html:10:5`);		
+</script>
+ 
+
+  
+ 
+  
+  
+</body>
+</html>

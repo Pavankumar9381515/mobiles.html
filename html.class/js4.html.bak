@@ -1,0 +1,17 @@
+<!-- example on JS -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+  </head>
+  <body>  
+    <h3>demo on printing methods</h3>
+	<script>
+	   window.document.write("apple","orange");<br>
+	   window.document.writeln("mango","banana");
+	   window.console.log("grape");
+	   window.console.log("invalid erroe");
+	</script>
+	<br>
+   </body>
+</html>
